@@ -40,9 +40,9 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
 
 >[Google Drive](https://drive.google.com/open?id=0B8iMbc-iQqlULW1HZXFiNnBEZUE) This gives you access to all the project's files. Please, search by # for artifacts, such as Code, Fritzing, Proteus, Schemas and more \o/
 
-### Hands-on ESP-WIFI-MESH Series List (from 2016 until now) :ant:
+### Hands-on ESP-WIFI-MESH Series List (from 2020 until now) :ant:
 
- [EX00](mesh_projects/EX00/) #esp32MeshSeries #Ep_00 [**ESP32 MESH — HANDS-ON** — Simple Mesh ESP32 Mesh Net — Expressif SDK-IDF](https://medium.com/jungletronics/esp32-mesh-hands-on-954f5a216804) — *Settting up the ESP32-IDF MESH Core on 6, yeah, six ESP32 Heltec V2 board, linked together in an auto-healing network.*)
+ [#EX01](mesh_projects/EX01/) #esp32MeshSeries #Ep_00 [**ESP32 MESH — HANDS-ON** — Simple Mesh ESP32 Mesh Net — Expressif SDK-IDF](https://medium.com/jungletronics/esp32-mesh-hands-on-954f5a216804) — *Setting up the ESP32-IDF MESH Core on 6, yeah, six ESP32 Heltec V2 board, linked together in an auto-healing network.*)
    
  
  
