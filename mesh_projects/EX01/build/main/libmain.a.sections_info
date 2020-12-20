@@ -1,0 +1,178 @@
+In archive C:/msys32/home/giljr/esp/esp-idf/examples/mesh_projects/EX01/build/main/libmain.a:
+
+app.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.task_root_button 00000078  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.task_mesh_rx 00000084  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.ssd1306_start 00000004  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.gpios_setup 0000001c  00000000  00000000  00000134  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.init_oled 00000014  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.task_app_create 0000004c  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text         00000000  00000000  00000000  000001b0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .data         00000000  00000000  00000000  000001b0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 .bss          00000000  00000000  00000000  000001b0  2**0
+                  ALLOC
+  9 .rodata.str1.4 000002cb  00000000  00000000  000001b0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .text.task_root_button 00000163  00000000  00000000  0000047c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.task_mesh_rx 000001df  00000000  00000000  000005e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.ssd1306_start 00000013  00000000  00000000  000007c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.gpios_setup 0000004e  00000000  00000000  000007d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.init_oled 0000002a  00000000  00000000  00000824  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.task_app_create 0000008e  00000000  00000000  00000850  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .bss.buffer_s$8683 0000000a  00000000  00000000  000008e0  2**2
+                  ALLOC
+ 17 .bss.tx_buf   00000064  00000000  00000000  000008e0  2**2
+                  ALLOC
+ 18 .bss.rx_buf   00000064  00000000  00000000  000008e0  2**2
+                  ALLOC
+ 19 .rodata.J3_mini_logo 0000011a  00000000  00000000  000008e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .debug_frame  000000a0  00000000  00000000  000009fc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_info   00000ea3  00000000  00000000  00000a9c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_abbrev 000002d0  00000000  00000000  0000193f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 23 .debug_loc    000000c7  00000000  00000000  00001c0f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_aranges 00000048  00000000  00000000  00001cd6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_ranges 00000038  00000000  00000000  00001d1e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_line   00000619  00000000  00000000  00001d56  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_str    0000081a  00000000  00000000  0000236f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .comment      0000003c  00000000  00000000  00002b89  2**0
+                  CONTENTS, READONLY
+ 29 .xtensa.info  00000038  00000000  00000000  00002bc5  2**0
+                  CONTENTS, READONLY
+ 30 .xt.lit       00000030  00000000  00000000  00002bfd  2**0
+                  CONTENTS, RELOC, READONLY
+ 31 .xt.prop      0000021c  00000000  00000000  00002c2d  2**0
+                  CONTENTS, RELOC, READONLY
+
+main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.app_main 00000034  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .text         00000000  00000000  00000000  00000068  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .data         00000000  00000000  00000000  00000068  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .bss          00000000  00000000  00000000  00000068  2**0
+                  ALLOC
+  4 .rodata.str1.4 00000064  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .text.app_main 00000058  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .rodata.__func__$7935 00000009  00000000  00000000  00000124  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .debug_frame  00000028  00000000  00000000  00000130  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  8 .debug_info   0000021b  00000000  00000000  00000158  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  9 .debug_abbrev 000000f2  00000000  00000000  00000373  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000065  00000000  00000000  00000465  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 11 .debug_aranges 00000020  00000000  00000000  000004ca  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_ranges 00000010  00000000  00000000  000004ea  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_line   00000207  00000000  00000000  000004fa  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_str    0000022b  00000000  00000000  00000701  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .comment      0000003c  00000000  00000000  0000092c  2**0
+                  CONTENTS, READONLY
+ 16 .xtensa.info  00000038  00000000  00000000  00000968  2**0
+                  CONTENTS, READONLY
+ 17 .xt.lit       00000008  00000000  00000000  000009a0  2**0
+                  CONTENTS, RELOC, READONLY
+ 18 .xt.prop      0000003c  00000000  00000000  000009a8  2**0
+                  CONTENTS, RELOC, READONLY
+
+mesh.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.esp_mesh_rx_start 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.mesh_event_handler 000001b4  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.mesh_app_start 000000e4  00000000  00000000  000001f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  000002d4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  000002d4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  000002d4  2**0
+                  ALLOC
+  6 .text.esp_mesh_rx_start 0000001b  00000000  00000000  000002d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .rodata.str1.4 00000ac9  00000000  00000000  000002f0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .text.mesh_event_handler 0000063a  00000000  00000000  00000dbc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .rodata.mesh_event_handler 00000068  00000000  00000000  000013f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 10 .text.mesh_app_start 00000244  00000000  00000000  00001460  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .rodata.__func__$8984 0000000f  00000000  00000000  000016a4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .bss.is_esp_mesh_rx_started$8945 00000001  00000000  00000000  000016b3  2**0
+                  ALLOC
+ 13 .bss.last_layer$8950 00000001  00000000  00000000  000016b3  2**0
+                  ALLOC
+ 14 .rodata.CONNECTED_BIT 00000004  00000000  00000000  000016b4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 15 .data.mesh_layer 00000004  00000000  00000000  000016b8  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 16 .bss.mesh_parent_addr 00000006  00000000  00000000  000016bc  2**2
+                  ALLOC
+ 17 .rodata.MESH_ID 00000006  00000000  00000000  000016bc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .debug_frame  00000058  00000000  00000000  000016c4  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_info   00002ccc  00000000  00000000  0000171c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_abbrev 000002e7  00000000  00000000  000043e8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .debug_loc    00000186  00000000  00000000  000046cf  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_aranges 00000030  00000000  00000000  00004855  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_ranges 00000020  00000000  00000000  00004885  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_line   000007eb  00000000  00000000  000048a5  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_str    00001ed2  00000000  00000000  00005090  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 26 .comment      0000003c  00000000  00000000  00006f62  2**0
+                  CONTENTS, READONLY
+ 27 .xtensa.info  00000038  00000000  00000000  00006f9e  2**0
+                  CONTENTS, READONLY
+ 28 .xt.lit       00000018  00000000  00000000  00006fd6  2**0
+                  CONTENTS, RELOC, READONLY
+ 29 .xt.prop      00000408  00000000  00000000  00006fee  2**0
+                  CONTENTS, RELOC, READONLY

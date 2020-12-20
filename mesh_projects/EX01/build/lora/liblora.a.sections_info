@@ -1,0 +1,166 @@
+In archive C:/msys32/home/giljr/esp/esp-idf/examples/mesh_projects/EX01/build/lora/liblora.a:
+
+lora.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .iram1.14.literal 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.lora_write_reg 00000010  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.lora_read_reg 00000010  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.lora_reset 00000010  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.lora_explicit_header_mode 0000000c  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.lora_implicit_header_mode 00000014  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.lora_idle 00000004  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.lora_sleep 00000004  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.lora_receive 00000004  00000000  00000000  0000009c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.lora_set_ocp 00000008  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.lora_set_tx_power 00000014  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.lora_set_frequency 0000001c  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.lora_set_spreading_factor 00000018  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.lora_set_bandwidth 00000078  00000000  00000000  000000f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.lora_set_coding_rate 00000008  00000000  00000000  00000168  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.lora_set_preamble_length 00000008  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.lora_set_sync_word 00000004  00000000  00000000  00000178  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.lora_enable_crc 00000008  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.lora_disable_crc 00000008  00000000  00000000  00000184  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.lora_init 00000080  00000000  00000000  0000018c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.lora_send_packet 00000028  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.lora_receive_packet 00000034  00000000  00000000  00000234  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.lora_received 00000004  00000000  00000000  00000268  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.lora_packet_rssi 00000018  00000000  00000000  0000026c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.lora_packet_snr 00000018  00000000  00000000  00000284  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.lora_close 0000000c  00000000  00000000  0000029c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.lora_dump_registers 0000001c  00000000  00000000  000002a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.lora_enable_irq 00000020  00000000  00000000  000002c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.lora_disable_irq 0000000c  00000000  00000000  000002e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text         00000000  00000000  00000000  000002f0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 30 .data         00000000  00000000  00000000  000002f0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 31 .bss          00000000  00000000  00000000  000002f0  2**0
+                  ALLOC
+ 32 .iram1.14     0000002f  00000000  00000000  000002f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.lora_write_reg 0000004a  00000000  00000000  00000320  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.lora_read_reg 00000049  00000000  00000000  0000036c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.lora_reset 0000002a  00000000  00000000  000003b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.lora_explicit_header_mode 00000024  00000000  00000000  000003e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.lora_implicit_header_mode 00000030  00000000  00000000  00000408  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.lora_idle 00000010  00000000  00000000  00000438  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.lora_sleep 00000010  00000000  00000000  00000448  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.lora_receive 00000010  00000000  00000000  00000458  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.lora_set_ocp 0000005a  00000000  00000000  00000468  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.lora_set_tx_power 00000058  00000000  00000000  000004c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.lora_set_frequency 0000004a  00000000  00000000  0000051c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.lora_set_spreading_factor 00000068  00000000  00000000  00000568  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.lora_set_bandwidth 00000117  00000000  00000000  000005d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.lora_set_coding_rate 00000037  00000000  00000000  000006e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.lora_set_preamble_length 0000001b  00000000  00000000  00000720  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.lora_set_sync_word 0000000f  00000000  00000000  0000073c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.lora_enable_crc 0000001b  00000000  00000000  0000074c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.lora_disable_crc 0000001c  00000000  00000000  00000768  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .rodata.str1.4 00000096  00000000  00000000  00000784  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 52 .text.lora_init 0000015a  00000000  00000000  0000081c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.lora_send_packet 00000081  00000000  00000000  00000978  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.lora_receive_packet 000000a5  00000000  00000000  000009fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.lora_received 00000017  00000000  00000000  00000aa4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.lora_packet_rssi 00000038  00000000  00000000  00000abc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text.lora_packet_snr 0000002b  00000000  00000000  00000af4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text.lora_close 00000016  00000000  00000000  00000b20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.lora_dump_registers 00000046  00000000  00000000  00000b38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.lora_enable_irq 0000004c  00000000  00000000  00000b80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.lora_disable_irq 0000001a  00000000  00000000  00000bcc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .bss.cnt_1$6526 00000004  00000000  00000000  00000be8  2**2
+                  ALLOC
+ 63 .rodata.__func__$6475 0000000a  00000000  00000000  00000be8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 64 .bss.__frequency 00000004  00000000  00000000  00000bf4  2**2
+                  ALLOC
+ 65 .data.__implicit_size 00000004  00000000  00000000  00000bf4  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 66 .bss.__implicit 00000004  00000000  00000000  00000bf8  2**2
+                  ALLOC
+ 67 .bss.__spi    00000004  00000000  00000000  00000bf8  2**2
+                  ALLOC
+ 68 .debug_frame  000002c8  00000000  00000000  00000bf8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 69 .debug_info   0000143a  00000000  00000000  00000ec0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 70 .debug_abbrev 00000313  00000000  00000000  000022fa  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 71 .debug_loc    000003e1  00000000  00000000  0000260d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 72 .debug_aranges 00000100  00000000  00000000  000029ee  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 73 .debug_ranges 000000f0  00000000  00000000  00002aee  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 74 .debug_line   000009be  00000000  00000000  00002bde  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 75 .debug_str    00000a1e  00000000  00000000  0000359c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 76 .comment      0000003c  00000000  00000000  00003fba  2**0
+                  CONTENTS, READONLY
+ 77 .xtensa.info  00000038  00000000  00000000  00003ff6  2**0
+                  CONTENTS, READONLY
+ 78 .xt.lit       000000e8  00000000  00000000  0000402e  2**0
+                  CONTENTS, RELOC, READONLY
+ 79 .xt.prop      000008a0  00000000  00000000  00004116  2**0
+                  CONTENTS, RELOC, READONLY
